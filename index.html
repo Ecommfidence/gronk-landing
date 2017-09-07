@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gronk Nation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        @font-face{
+            font-family:'Bebas Neue';
+            src:url("assets/BebasNeue.ttf") format("truetype");
+            font-weight:normal;
+            font-style:normal;
+        }
+
+        body{
+            background-image: url(assets/background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-position: center center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+        }
+        .logo{
+            max-width: 100%;
+            max-height: 185px;
+        }
+
+        h1{
+            font-size: 70px;
+            letter-spacing: 2px;
+        }
+        h2{
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        .input-group{
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 10px;
+            background: white;
+        }
+
+        .form-control, .btn{
+            border-radius: 0;
+        }
+
+        .form-control{
+            border: 2px solid #555;
+            border-right: 0;
+            font-size: 20px;
+            height: 48px;
+            text-align: center;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .btn-secondary{
+            background: #a2aaad;
+            font-size: 24px;
+        }
+        .btn:hover{
+            color: #ccc;
+        }
+
+        .social i{
+            color: white;
+            padding: 10px;
+            font-size: 3.5em;
+        }
+
+        @media(max-width: 767px){
+            h1{ font-size: 50px; }
+            h2{ font-size: 30px; }
+            .form-control{ font-size: 16px; }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container-fluid text-center">
+    <div class="col-sm-12">
+        <img class="logo" src="assets/logo.png" alt="">
+        <h1>Official Website</h1>
+        <h2>Sign up to be the first to know</h2>
+
+        <form action="https://gronknation.us2.list-manage.com/subscribe/post?u=22c72f5fdf7cba56bf364c2db&amp;id=c180b73499" target="_blank" name="mc-embedded-subscribe-form" method="post">
+            <div class="input-group">
+                <input type="text" name="EMAIL" class="form-control" placeholder="Sign Up For My Newsletter / Email Here">
+                <span class="input-group-btn">
+                    <button type="submit" value="SUBMIT" name="submit" class="btn btn-secondary"><i class="fa fa-paper-plane"></i></button>
+                </span>
+            </div>
+        </form>
+
+        <div class="social">
+            <a href="https://www.facebook.com/gronknation/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/gronknation/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/gronknation" target="_blank"><i class="fa fa-twitter-square"></i></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
